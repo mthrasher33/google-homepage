@@ -1,0 +1,169 @@
+#center {
+    position:relative;
+    top:194px;
+    width:571px;
+    height:250px;
+    left: 90px;
+}
+
+.logo {
+    width:270px;
+    height: 93px;
+    position: absolute;
+    left:150px;
+}
+
+.search {
+    width:571px;
+    height:30px;
+    font-size:24px;
+    font-family:'Arial', arial, sans-serif;
+    background: url(https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Microphone_1.png) no-repeat 550px 3px;
+    background-size: 20px 22px;
+    position:absolute;
+    top:121px;
+}
+.googleSearch {
+    position: absolute;
+    left: 177px;
+    top: 169px;
+    width: 95px;
+    height:27px;
+    font-family:'Arial', Helvetica Neue, sans-serif;
+    font-weight: bold;
+    background-color:#f4f4f4;
+    border: 1px;
+    border-style:solid;
+    border-color: #dfdfdf;
+    border-radius: 2px;
+}
+.lucky {
+    position: absolute;
+    left: 288px;
+    top: 169px;
+    width: 111px;
+    height:27px;
+    font-family:'Arial', Helvetica Neue, sans-serif;
+    font-weight: bold;
+    background-color:#f4f4f4;
+    border: 1px;
+    border-style:solid;
+    border-color: #dfdfdf;
+    border-radius: 2px;
+}
+.googleSearch:hover, .lucky:hover {
+    box-shadow: 0px 2px 2px #f4f4f4;
+    border-color: #c9c9c9;
+}
+.googleSearch:focus, .lucky:focus {
+    outline: none;
+    border-color: #61a6fb;
+}
+.youtube {
+    font-family:"Arial", arial, sans-serif;
+    text-decoration:none;
+}
+.youtube:hover {
+    text-decoration:underline;
+}
+.youtube {
+    position:absolute;
+    left:188px;
+    top:234px;
+    font-size: 14px;
+}
+
+#footer{
+    margin:0;
+    top:300px;
+    width:100%;
+    position:relative;
+    min-width:534px;
+    bottom:0px;
+    background-color:#f2f2f2;
+    border-top-style:solid;
+    border-color: #dfdfdf;
+    border-width:1px;
+    height:40px;
+    width:741px;
+    padding-top: 20px;
+}
+#footerRight {
+float:right;
+padding-right:30px;
+}
+
+
+.footerLink {
+    font-family:'Arial', Helvetica Neue, sans-serif;
+    font-size: 14px;
+    text-decoration:none;
+    color: #8d8c8c;
+    padding-left: 30px;
+}
+.footerLink:hover {
+    text-decoration:underline;
+}
+#header {
+    position:relative;
+    height:35px;
+    width:500px;
+    top:25px;
+    left:400px;
+}
+#googleApps {
+    height:20px;
+    width:20px;
+    position:relative;
+    padding-left:15px;
+}
+#googleApps:hover .square {
+    background-color:black;
+}
+.headerLink {
+    font-size: 12px;
+    color:#989898;
+    text-decoration:none;
+    font-family:"Arial", arial, sans-serif;
+    padding-left:15px;
+}
+.matthew:hover, .gmail:hover, .images:hover {
+    text-decoration:underline;
+}
+.square {
+    background-color:#737373;
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 30.66%;
+    margin:1.66%;
+}
+.square:hover {
+    background-color:black;
+}
+.driveLink {
+    width:20px;
+    height:20px;
+    background-color:white;
+    color:white;
+    position:relative;
+}
+.alarm {
+    font-size: 25px;
+}
+.googlePlus {
+    height: 20px;
+    width: 20px;
+}
+.profPic {
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+li {
+    display: inline-block;
+    padding-right:0px;
+}
